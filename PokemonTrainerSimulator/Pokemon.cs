@@ -9,7 +9,7 @@ namespace PokemonTrainerSimulator
 {
     public abstract class Pokemon
     {
-        private string name;
+        private string name; 
         private int level;
         public ElementType Type { get; }
         public List<Attack> Attacks { get; } 
