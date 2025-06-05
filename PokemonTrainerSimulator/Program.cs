@@ -26,6 +26,7 @@ foreach (var pokemon in trainerPokemons)
     {
         evolvablePokemon.Evolve();
     }
+    Console.ReadKey();
 }
 
     
